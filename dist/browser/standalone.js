@@ -5,7 +5,7 @@
  *  ___/ / /___/ ___ |/ /___/ ___ |/ _, _/
  * /____/\____/_/  |_/_____/_/  |_/_/ |_|
  *
- * @noble-assets/api-reference 1.25.122
+ * @noble-assets/scalar-api-reference 1.25.122
  *
  * Website: https://scalar.com
  * GitHub:  https://github.com/scalar/scalar

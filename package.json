@@ -1,5 +1,5 @@
 {
-  "name": "@noble-assets/api-reference",
+  "name": "@noble-assets/scalar-api-reference",
   "description": "generate beautiful API references from OpenAPI specs",
   "license": "MIT",
   "author": "Noble (https://github.com/noble-assets)",
