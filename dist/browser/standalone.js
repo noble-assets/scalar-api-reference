@@ -27534,9 +27534,9 @@ path:[],query:[],header:[],cookie:[],body:[],formData:[]}
 ;return r&&r.forEach((e=>{
 "path"===e.in?n.path.push(e):"query"===e.in?n.query.push(e):"header"===e.in?n.header.push(e):"cookie"===e.in?n.cookie.push(e):"body"===e.in?n.body.push(e):"formData"===e.in&&n.formData.push(e)
 })),n}))}}(t),r=Ibe(t)||n.value;let a=null;"boolean"!=typeof r&&(a=r);const i={
-type:"req",title:t.name??t.path,href:`#${o(t,e)}`,operationId:t.operationId,
-description:t.description??"",httpVerb:t.httpVerb,path:t.path,tag:e.name,
-operation:t};a&&(i.body=a),s.value.push(i)}))}))
+type:"req",title:t.path,href:`#${o(t,e)}`,operationId:t.operationId,
+description:"",httpVerb:t.httpVerb,path:t.path,tag:e.name,operation:t}
+;a&&(i.body=a),s.value.push(i)}))}))
 ;const O=null==(v=e.value)?void 0:v.webhooks,w=[]
 ;O&&Object.keys(O).forEach((e=>{Object.keys(O[e]).forEach((t=>{var r;w.push({
 type:"webhook",title:`Webhook: ${null==(r=O[e][t])?void 0:r.name}`,href:`#${n({

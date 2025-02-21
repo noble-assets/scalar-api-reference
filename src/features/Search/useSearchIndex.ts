@@ -145,10 +145,10 @@ export function useSearchIndex({
 
             const operationData: FuseData = {
               type: 'req',
-              title: operation.name ?? operation.path,
+              title: operation.path,
               href: `#${getOperationId(operation, tag)}`,
               operationId: operation.operationId,
-              description: operation.description ?? '',
+              description: '',
               httpVerb: operation.httpVerb,
               path: operation.path,
               tag: tag.name,
