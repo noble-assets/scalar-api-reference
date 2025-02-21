@@ -181,7 +181,7 @@ const items = computed(() => {
               children: tag.operations?.map(
                 (operation: TransformedOperation) => {
                   const id = getOperationId(operation, tag)
-                  const title = operation.name ?? operation.path
+                  const title = operation.path
                   titlesById[id] = title
 
                   return {
