@@ -88,6 +88,11 @@ onMounted(() => onLoaded?.())
   </SectionContainer>
 </template>
 <style scoped>
+.badges {
+  display: flex;
+  gap: 5px;
+}
+
 .sticky-cards {
   display: flex;
   flex-direction: column;
